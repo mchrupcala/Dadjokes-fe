@@ -8,8 +8,8 @@ import RightSidebar from './components/RightSidebar.js';
 function App() {
   return (
     <div className="App">
-      <Jokefeed />
       <UserProfile />
+      <Jokefeed />
       <RightSidebar />
     </div>
   );
