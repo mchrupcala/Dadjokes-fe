@@ -55,6 +55,14 @@
   background: aqua;
 }
 
+.joke-card {
+  background: purple;
+  /* width: 10vh;
+  height: 5vh; */
+  margin: 1vh 0;
+  padding: 1vh 0;
+}
+
 /*****RIGHT SIDEBAR******/
 .right-sidebar {
   height: 100vh;

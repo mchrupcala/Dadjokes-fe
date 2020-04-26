@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import axios from 'axios';
 
 const NewJoke = () => {
@@ -22,9 +22,9 @@ const sendJoke = (e) => {
 
 }
 
-const jokeHandler = (e) => {
-    e.target.name = e.target.value;
-}
+// const jokeHandler = (e) => {
+//     e.target.name = e.target.value;
+// }
 
 
     return (
