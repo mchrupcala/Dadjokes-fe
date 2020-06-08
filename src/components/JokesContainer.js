@@ -25,12 +25,8 @@ const JokesContainer = (props) => {
         // }
 // })
     const containerDisplay = () => {
-        // console.log(props)
-        // console.log('length', Object.keys(props.jokes).length);
-        // console.log(props.jokes);
-        if (Object.keys(props.jokes).length > 1) {
+        if (Object.keys(props.jokes).length > 0) {
             console.log(props.jokes)
-        // if (Object.keys(props.jokes).length > 0) {
             return props.jokes.map(j => 
                         <JokeCard 
                         key={j.jokeid}
